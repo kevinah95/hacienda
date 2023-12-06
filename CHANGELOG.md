@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/kevinah95/hacienda/compare/v0.3.0...v0.4.0) (2023-12-06)
+
+
+### Features
+
+* add exoneration subcommand to fe ([aa1bd8c](https://github.com/kevinah95/hacienda/commit/aa1bd8c1b75e237cac0e3912723f1421deb55fe6))
+
 ## [0.3.0](https://github.com/kevinah95/hacienda/compare/v0.2.0...v0.3.0) (2023-12-06)
 
 
