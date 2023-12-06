@@ -5,7 +5,7 @@
 
 package main
 
-import "hacienda/cmd"
+import "github.com/kevinah95/hacienda/cmd"
 
 func main() {
 	cmd.Execute()
