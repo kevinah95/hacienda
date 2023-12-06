@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/kevinah95/hacienda/compare/v0.4.0...v0.4.1) (2023-12-06)
+
+
+### Bug Fixes
+
+* Retract v0.2.0 ([2d48702](https://github.com/kevinah95/hacienda/commit/2d48702bec3ce70942804ee93c2619c852bba724))
+
 ## [0.4.0](https://github.com/kevinah95/hacienda/compare/v0.3.0...v0.4.0) (2023-12-06)
 
 
