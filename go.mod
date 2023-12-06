@@ -1,4 +1,4 @@
-module hacienda
+module github.com/kevinah95/hacienda
 
 go 1.20
 
