@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/kevinah95/hacienda/compare/v0.2.0...v0.3.0) (2023-12-06)
+
+
+### Features
+
+* add goreleaser ([529f21d](https://github.com/kevinah95/hacienda/commit/529f21d29b256a4130bd9115cc686a304e5471b5))
+
 ## [0.2.0](https://github.com/kevinah95/hacienda/compare/v0.1.0...v0.2.0) (2023-12-06)
 
 
