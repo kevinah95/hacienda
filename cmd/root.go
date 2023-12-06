@@ -20,7 +20,7 @@ Ministerio de Hacienda de Costa Rica (https://www.hacienda.go.cr).
 
 Más información sobre el API del Ministerio de Hacienda en: 
 	
-	https://api.hacienda.go.cr/status o https://bit.ly/2McNcpX
+  https://api.hacienda.go.cr/status o https://bit.ly/2McNcpX
 `,
 	Version: "0.3.0", // x-release-please-version
 	Example: `

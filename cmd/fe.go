@@ -21,7 +21,7 @@ servicio.
 
 Más información sobre la Factura Electrónica en:
 
-	https://www.hacienda.go.cr/docs/AspectosGeneralesComprobantesElectronicos.pdf
+  https://www.hacienda.go.cr/docs/AspectosGeneralesComprobantesElectronicos.pdf
 `,
 }
 
