@@ -8,4 +8,4 @@
 
 Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica.
 
-<img src="./hacienda.gif" alt="Ejemplo hacienda" />
+<img src="./examples/hacienda.gif" alt="Ejemplo hacienda" />
