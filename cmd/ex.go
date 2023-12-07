@@ -7,14 +7,13 @@ package cmd
 
 import (
 	"fmt"
-	"io"
-	"log"
-	"net/http"
-	"net/url"
-	"os"
-
+	"github.com/kevinah95/hacienda/api"
 	"github.com/spf13/cobra"
+	"net/http"
 )
+
+var verbose bool
+var Identification string
 
 // exCmd represents the ex command
 var exCmd = &cobra.Command{
@@ -36,8 +35,18 @@ Restricciones:
 
 `,
 	Run: func(cmd *cobra.Command, args []string) {
-		flagAuthz := cmd.Flags().Lookup("authz")
-		callAPI2(flagAuthz.Value.String())
+		authz, _ := cmd.Flags().GetString("authz")
+		verbose, _ := cmd.Flags().GetBool("verbose")
+		c := api.NewClient(&http.Client{})
+		data, resp, err := c.FacturaElectronica.Exoneracion(authz)
+		if err != nil {
+			return
+		}
+
+		if verbose {
+			fmt.Println(resp)
+		}
+		fmt.Println(data)
 	},
 }
 
@@ -53,32 +62,5 @@ func init() {
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	exCmd.Flags().StringP("authz", "a", "al-00000000-00", "Número de documento.")
-}
-
-func callAPI2(authorization string) {
-	baseUrl := makeURL2(authorization)
-
-	fmt.Println(baseUrl)
-	response, err := http.Get(baseUrl)
-
-	if err != nil {
-		fmt.Print(err.Error())
-		os.Exit(1)
-	}
-
-	responseData, err := io.ReadAll(response.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(string(responseData))
-}
-
-func makeURL2(authorization string) string {
-	newUrl := url.URL{
-		Scheme:   "https",
-		Host:     "api.hacienda.go.cr",
-		Path:     "fe/ex",
-		RawQuery: fmt.Sprintf("autorizacion=%s", authorization),
-	}
-	return newUrl.String()
+	exCmd.Flags().BoolP("verbose", "v", false, "verbose command")
 }

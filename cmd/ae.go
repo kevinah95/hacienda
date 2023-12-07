@@ -7,12 +7,9 @@ package cmd
 
 import (
 	"fmt"
+	"github.com/kevinah95/hacienda/api"
 	"github.com/spf13/cobra"
-	"io"
-	"log"
 	"net/http"
-	"net/url"
-	"os"
 )
 
 // aeCmd represents the ae command
@@ -41,8 +38,18 @@ Ver también:
   https://atv.hacienda.go.cr/ATV/frmConsultaSituTributaria.aspx
 `,
 	Run: func(cmd *cobra.Command, args []string) {
-		flagId := cmd.Flags().Lookup("id")
-		callAPI(flagId.Value.String())
+		identification, _ := cmd.Flags().GetString("id")
+		verbose, _ := cmd.Flags().GetBool("verbose")
+		c := api.NewClient(&http.Client{})
+		data, resp, err := c.FacturaElectronica.ActividadEconomica(identification)
+		if err != nil {
+			return
+		}
+
+		if verbose {
+			fmt.Println(resp)
+		}
+		fmt.Println(data)
 	},
 }
 
@@ -58,33 +65,5 @@ func init() {
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	aeCmd.Flags().StringP("id", "i", "0", "Número de identificación del contribuyente")
-
-}
-
-func callAPI(id string) {
-	baseUrl := makeURL(id)
-
-	fmt.Println(baseUrl)
-	response, err := http.Get(baseUrl)
-
-	if err != nil {
-		fmt.Print(err.Error())
-		os.Exit(1)
-	}
-
-	responseData, err := io.ReadAll(response.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(string(responseData))
-}
-
-func makeURL(id string) string {
-	newUrl := url.URL{
-		Scheme:   "https",
-		Host:     "api.hacienda.go.cr",
-		Path:     "fe/ae",
-		RawQuery: fmt.Sprintf("identificacion=%s", id),
-	}
-	return newUrl.String()
+	aeCmd.Flags().BoolP("verbose", "v", false, "Verbose command")
 }
