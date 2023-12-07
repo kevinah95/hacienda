@@ -86,3 +86,26 @@ func (s *FEService) Exoneracion(authorizacion string) (string, *http.Response, e
 	return string(responseData), response, nil
 
 }
+
+func (s *FEService) Pesca(id string) (string, *http.Response, error) {
+
+	u := fmt.Sprintf("fe/pesca?identificacion=%v", id)
+
+	req, err := s.client.NewRequest("GET", u, nil)
+	if err != nil {
+		return "", nil, err
+	}
+
+	response, err := s.client.Do(req)
+	if err != nil {
+		fmt.Print(err.Error())
+		os.Exit(1)
+	}
+
+	responseData, err := io.ReadAll(response.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return string(responseData), response, nil
+}
