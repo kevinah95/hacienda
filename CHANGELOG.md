@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/kevinah95/hacienda/compare/v0.4.1...v0.5.0) (2023-12-07)
+
+
+### Features
+
+* add fe agropecuario command ([e3910fb](https://github.com/kevinah95/hacienda/commit/e3910fb41fa5c665d71263865cdde518ed50abc8))
+
 ## [0.4.1](https://github.com/kevinah95/hacienda/compare/v0.4.0...v0.4.1) (2023-12-06)
 
 
