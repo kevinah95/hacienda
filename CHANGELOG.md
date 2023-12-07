@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/kevinah95/hacienda/compare/v0.5.0...v0.6.0) (2023-12-07)
+
+
+### Features
+
+* add fe pesca command ([6f51e6a](https://github.com/kevinah95/hacienda/commit/6f51e6a646b3bfe20bfef362815643b8e5346aa7))
+
 ## [0.5.0](https://github.com/kevinah95/hacienda/compare/v0.4.1...v0.5.0) (2023-12-07)
 
 
