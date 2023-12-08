@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.15](https://github.com/kevinah95/hacienda/compare/v0.8.14...v0.8.15) (2023-12-08)
+
+
+### Bug Fixes
+
+* add cosign to ci ([998ca22](https://github.com/kevinah95/hacienda/commit/998ca22a72085d70f82ef42739b113a86213f415))
+
 ## [0.8.14](https://github.com/kevinah95/hacienda/compare/v0.8.13...v0.8.14) (2023-12-08)
 
 
