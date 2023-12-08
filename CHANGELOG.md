@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.16](https://github.com/kevinah95/hacienda/compare/v0.8.15...v0.8.16) (2023-12-08)
+
+
+### Bug Fixes
+
+* change cosign method and upload pub key ([41310a7](https://github.com/kevinah95/hacienda/commit/41310a743013e5037b682f6c860a32c28e4ac533))
+
 ## [0.8.15](https://github.com/kevinah95/hacienda/compare/v0.8.14...v0.8.15) (2023-12-08)
 
 
