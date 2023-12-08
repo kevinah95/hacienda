@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.5](https://github.com/kevinah95/hacienda/compare/v0.8.4...v0.8.5) (2023-12-08)
+
+
+### Bug Fixes
+
+* add yes compliance ([5d533db](https://github.com/kevinah95/hacienda/commit/5d533db4664394f5b7735178b2799dc2e9ad6205))
+
 ## [0.8.4](https://github.com/kevinah95/hacienda/compare/v0.8.3...v0.8.4) (2023-12-08)
 
 
