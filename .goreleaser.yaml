@@ -24,7 +24,7 @@ builds:
       - darwin
     hooks:
       post:
-        - sh -c "cosign sign-blob --key=env://COSIGN_PRIVATE_KEY --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}"
+        - sh -c "cosign sign-blob --key=env://COSIGN_PRIVATE_KEY --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }} --yes"
 
 archives:
   - format: tar.gz
