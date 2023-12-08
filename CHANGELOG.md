@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.14](https://github.com/kevinah95/hacienda/compare/v0.8.13...v0.8.14) (2023-12-08)
+
+
+### Bug Fixes
+
+* use signs pipe ([b672784](https://github.com/kevinah95/hacienda/commit/b6727847362ad60f270c0c7b8c1aac9cea0001af))
+
 ## [0.8.13](https://github.com/kevinah95/hacienda/compare/v0.8.12...v0.8.13) (2023-12-08)
 
 
