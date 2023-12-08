@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.7](https://github.com/kevinah95/hacienda/compare/v0.8.6...v0.8.7) (2023-12-08)
+
+
+### Bug Fixes
+
+* Change release-please output ([3c9b4be](https://github.com/kevinah95/hacienda/commit/3c9b4bedd985b8d67989ee0cf0abfe606a22da58))
+
 ## [0.8.6](https://github.com/kevinah95/hacienda/compare/v0.8.5...v0.8.6) (2023-12-08)
 
 
