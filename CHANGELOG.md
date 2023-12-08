@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/kevinah95/hacienda/compare/v0.6.0...v0.7.0) (2023-12-08)
+
+
+### Features
+
+* add fe cabys command ([55f1cdf](https://github.com/kevinah95/hacienda/commit/55f1cdff944690e1d362d7201e1d6b072cd11543))
+
 ## [0.6.0](https://github.com/kevinah95/hacienda/compare/v0.5.0...v0.6.0) (2023-12-07)
 
 
