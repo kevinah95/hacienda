@@ -22,17 +22,18 @@ builds:
       - linux
       - windows
       - darwin
-    # hooks:
-    #   post:
-    #     - sh -c "COSIGN_PASSWORD=$COSIGN_PASSWORD cosign sign-blob --yes --key=env://COSIGN_PRIVATE_KEY --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}"
-    #     - cmd: cosign
-    #       stdin: '{{ .Env.COSIGN_PASSWORD }}'
-    #       args:
-    #       - "sign-blob"
-    #       - "--key=env://COSIGN_PRIVATE_KEY"
-    #       - "--output-signature=${signature}"
-    #       - "${artifact}"
-    #       - "--yes" # needed on cosign 2.0.0+
+    hooks:
+      post:
+        # - sh -c "COSIGN_PASSWORD=$COSIGN_PASSWORD cosign sign-blob --yes --key=env://COSIGN_PRIVATE_KEY --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}"
+        - cmd: cosign
+          stdin: '{{ .Env.COSIGN_PASSWORD }}'
+          args:
+          - "sign-blob"
+          - "--key=env://COSIGN_PRIVATE_KEY"
+          - "--output-signature"
+          - "dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig"
+          - "{{ .Path }}"
+          - "--yes" # needed on cosign 2.0.0+
 
 archives:
   - format: tar.gz
