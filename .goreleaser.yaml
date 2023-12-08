@@ -34,7 +34,7 @@ builds:
         #   - "dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig"
         #   - "{{ .Path }}"
         #   - "--yes" # needed on cosign 2.0.0+
-        - cosign sign-blob --yes --key=env://COSIGN_PRIVATE_KEY --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}
+        - COSIGN_PASSWORD=$COSIGN_PASSWORD cosign sign-blob --yes --key=env://COSIGN_PRIVATE_KEY --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}
 
 archives:
   - format: tar.gz
