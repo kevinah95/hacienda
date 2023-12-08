@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.11](https://github.com/kevinah95/hacienda/compare/v0.8.10...v0.8.11) (2023-12-08)
+
+
+### Bug Fixes
+
+* add cosign_password ([9c49f6a](https://github.com/kevinah95/hacienda/commit/9c49f6adb25b948349be737ee2584d0ebff24a7e))
+
 ## [0.8.10](https://github.com/kevinah95/hacienda/compare/v0.8.9...v0.8.10) (2023-12-08)
 
 
