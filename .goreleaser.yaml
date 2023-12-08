@@ -15,6 +15,7 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
     - echo "$COSIGN_PRIVATE_KEY" > cosign.key
+    - echo "$COSIGN_PRIVATE_KEY"
 
 builds:
   - env:
