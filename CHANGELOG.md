@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.18](https://github.com/kevinah95/hacienda/compare/v0.8.17...v0.8.18) (2023-12-08)
+
+
+### Bug Fixes
+
+* change goreleaser archive ([e7c371c](https://github.com/kevinah95/hacienda/commit/e7c371c6959e5a1b27ebcaccd468a2fe73c23206))
+
 ## [0.8.17](https://github.com/kevinah95/hacienda/compare/v0.8.16...v0.8.17) (2023-12-08)
 
 
