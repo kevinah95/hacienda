@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.13](https://github.com/kevinah95/hacienda/compare/v0.8.12...v0.8.13) (2023-12-08)
+
+
+### Bug Fixes
+
+* remove COSIGN_PASSWORD variable ([e834b85](https://github.com/kevinah95/hacienda/commit/e834b855531cf583d709cfeb539ac9b9620c0bf3))
+
 ## [0.8.12](https://github.com/kevinah95/hacienda/compare/v0.8.11...v0.8.12) (2023-12-08)
 
 
