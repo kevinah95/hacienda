@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.20](https://github.com/kevinah95/hacienda/compare/v0.8.19...v0.8.20) (2023-12-08)
+
+
+### Bug Fixes
+
+* change dist to signatures folder ([d599689](https://github.com/kevinah95/hacienda/commit/d59968906bb82aafe5513788ae640ab5d00f3e35))
+
 ## [0.8.19](https://github.com/kevinah95/hacienda/compare/v0.8.18...v0.8.19) (2023-12-08)
 
 
