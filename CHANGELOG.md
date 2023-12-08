@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.4](https://github.com/kevinah95/hacienda/compare/v0.8.3...v0.8.4) (2023-12-08)
+
+
+### Bug Fixes
+
+* Add cosign key as env ([f693c67](https://github.com/kevinah95/hacienda/commit/f693c67f43703eb28ffb2bc4bd472e5aace37f97))
+
 ## [0.8.3](https://github.com/kevinah95/hacienda/compare/v0.8.2...v0.8.3) (2023-12-08)
 
 
