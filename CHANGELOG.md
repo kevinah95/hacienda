@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.6](https://github.com/kevinah95/hacienda/compare/v0.8.5...v0.8.6) (2023-12-08)
+
+
+### Bug Fixes
+
+* add secrets as env variables ([2dc4ae3](https://github.com/kevinah95/hacienda/commit/2dc4ae3dadbd80857f7ad602d171c6430dc962b6))
+
 ## [0.8.5](https://github.com/kevinah95/hacienda/compare/v0.8.4...v0.8.5) (2023-12-08)
 
 
