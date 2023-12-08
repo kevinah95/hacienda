@@ -42,6 +42,7 @@ archives:
         format: zip
     files:
       - dist/*.sig
+      - {{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig
 
 signs:
   - cmd: cosign
@@ -52,11 +53,7 @@ signs:
     - "--output-signature=${signature}"
     - "${artifact}"
     - "--yes" # needed on cosign 2.0.0+
-    artifacts: all
-
-release:
-  extra_files:
-    - glob: dist/*.sig
+    artifacts: binary
 
 
 changelog:
