@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/kevinah95/hacienda/compare/v0.7.0...v0.8.0) (2023-12-08)
+
+
+### Features
+
+* Add cosign in goreleaser ([c620084](https://github.com/kevinah95/hacienda/commit/c620084bbdc3a7d54e024b396a8a8100ac508a81))
+
 ## [0.7.0](https://github.com/kevinah95/hacienda/compare/v0.6.0...v0.7.0) (2023-12-08)
 
 
