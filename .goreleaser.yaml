@@ -23,7 +23,7 @@ builds:
       - linux
       - windows
       - darwin
-  - hooks:
+    hooks:
       post:
         - sh -c "cosign sign-blob --key cosign.key --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}"
 
