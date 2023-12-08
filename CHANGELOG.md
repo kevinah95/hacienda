@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.3](https://github.com/kevinah95/hacienda/compare/v0.8.2...v0.8.3) (2023-12-08)
+
+
+### Miscellaneous Chores
+
+* release 0.8.3 ([16e152a](https://github.com/kevinah95/hacienda/commit/16e152ab7892514c0a572e598406bed38a1f8c41))
+
 ## [0.8.2](https://github.com/kevinah95/hacienda/compare/v0.8.1...v0.8.2) (2023-12-08)
 
 
