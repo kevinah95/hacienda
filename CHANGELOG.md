@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.17](https://github.com/kevinah95/hacienda/compare/v0.8.16...v0.8.17) (2023-12-08)
+
+
+### Bug Fixes
+
+* remove private key and add sign to dist folder ([573d0c5](https://github.com/kevinah95/hacienda/commit/573d0c53fef9cd468fb6710d4125ad468aa34ad0))
+
 ## [0.8.16](https://github.com/kevinah95/hacienda/compare/v0.8.15...v0.8.16) (2023-12-08)
 
 
