@@ -14,6 +14,7 @@ before:
     - go mod tidy
     # you may remove this if you don't need go generate
     - go generate ./...
+    - echo "$COSIGN_PRIVATE_KEY" > cosign.key
 
 builds:
   - env:
@@ -22,6 +23,9 @@ builds:
       - linux
       - windows
       - darwin
+  - hooks:
+      post:
+        - sh -c "cosign sign-blob --key cosign.key --output-signature dist/{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig {{ .Path }}"
 
 archives:
   - format: tar.gz
@@ -37,6 +41,24 @@ archives:
     format_overrides:
       - goos: windows
         format: zip
+  - files:
+    - dist/*.sig
+
+signs:
+  - cmd: cosign
+    stdin: '{{ .Env.COSIGN_PASSWORD }}'
+    args:
+    - "sign-blob"
+    - "--key=cosign.key"
+    - "--output-signature=${signature}"
+    - "${artifact}"
+    - "--yes" # needed on cosign 2.0.0+
+    artifacts: all
+
+release:
+  extra_files:
+    - glob: dist/*.sig
+
 
 changelog:
   sort: asc
