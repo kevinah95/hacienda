@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.8](https://github.com/kevinah95/hacienda/compare/v0.8.7...v0.8.8) (2023-12-08)
+
+
+### Bug Fixes
+
+* comment wrong implementation ([9920310](https://github.com/kevinah95/hacienda/commit/9920310512384cab9b83e0cba54957add00a2136))
+
 ## [0.8.7](https://github.com/kevinah95/hacienda/compare/v0.8.6...v0.8.7) (2023-12-08)
 
 
