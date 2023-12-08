@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.19](https://github.com/kevinah95/hacienda/compare/v0.8.18...v0.8.19) (2023-12-08)
+
+
+### Bug Fixes
+
+* add quotation marks to filename ([6fbe2b3](https://github.com/kevinah95/hacienda/commit/6fbe2b392c681777fef442eba6478b776b1da7ef))
+
 ## [0.8.18](https://github.com/kevinah95/hacienda/compare/v0.8.17...v0.8.18) (2023-12-08)
 
 
