@@ -42,7 +42,7 @@ archives:
         format: zip
     files:
       - dist/*.sig
-      - {{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig
+      - "{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig"
 
 signs:
   - cmd: cosign
