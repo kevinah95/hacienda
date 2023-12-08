@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.10](https://github.com/kevinah95/hacienda/compare/v0.8.9...v0.8.10) (2023-12-08)
+
+
+### Bug Fixes
+
+* Try to use cosign ([ee2d3c9](https://github.com/kevinah95/hacienda/commit/ee2d3c9d82c89bfeed0cb0ad47c4bc2485b77df6))
+
 ## [0.8.9](https://github.com/kevinah95/hacienda/compare/v0.8.8...v0.8.9) (2023-12-08)
 
 
