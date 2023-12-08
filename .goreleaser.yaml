@@ -41,8 +41,8 @@ archives:
       - goos: windows
         format: zip
     files:
-      - dist/*.sig
-      - "{{ .ProjectName }}_{{ .Version }}_{{ .Target }}.sig"
+      - src: dist/*.sig
+        dst: signatures
 
 signs:
   - cmd: cosign
