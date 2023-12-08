@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.9](https://github.com/kevinah95/hacienda/compare/v0.8.8...v0.8.9) (2023-12-08)
+
+
+### Bug Fixes
+
+* change cosign command ([57659e8](https://github.com/kevinah95/hacienda/commit/57659e85a28ee12a34e5bd459e907a7d7f4641ae))
+
 ## [0.8.8](https://github.com/kevinah95/hacienda/compare/v0.8.7...v0.8.8) (2023-12-08)
 
 
