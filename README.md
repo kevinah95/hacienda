@@ -52,7 +52,7 @@ $ cosign verify-blob --key cosign.pub --signature signatures/hacienda.sig  ./hac
 
 Para más información visite la [documentación de sigstore](https://docs.sigstore.dev) o la sección de [firma de GoReleaser](https://goreleaser.com/customization/sign).
 
-## License
+## Licencia
 
 ```
 Copyright 2023 Kevin Hernández
