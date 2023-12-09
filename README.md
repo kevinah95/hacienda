@@ -55,7 +55,7 @@ Para más información visite la [documentación de sigstore](https://docs.sigst
 ## Licencia
 
 ```
-Copyright 2023 Kevin Hernández
+Copyright 2023 Kevin Hernández Rostrán
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
