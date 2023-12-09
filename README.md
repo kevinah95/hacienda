@@ -12,18 +12,60 @@ Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de 
 
 ## Instalación
 
-Vía [goblin.run](https://goblin.run):
+### Vía [goblin.run](https://goblin.run)
 
 ```sh
 $ curl -sf http://goblin.run/github.com/kevinah95/hacienda | sh
 ```
 
-Go:
+### Go
+
 ```
 $ go install github.com/kevinah95/hacienda@latest
 ```
 
-Homebrew:
+### Homebrew
+
 ```
 $ TODO
+```
+
+### Manual
+
+- Descargar el binario de [releases](https://github.com/kevinah95/hacienda/releases).
+
+## Verificar
+
+Este proyecto utiliza Cosign para firmar los archivos binarios. 
+
+> Cosign es una utilidad de línea de comandos que puede firmar y verificar artefactos de software, como imágenes de contenedores y blobs.
+
+Para verificar la firma con `cosign`, vea este ejemplo:
+
+```bash
+$ cosign verify-blob --key cosign.pub --signature signatures/hacienda.sig  ./hacienda
+```
+
+- `cosign.pub`: Se encuentra en el directorio raíz del proyecto.
+- `hacienda.sig`: Se encuentra en el archivo comprimido en [releases](https://github.com/kevinah95/hacienda/releases).
+- `./hacienda`: Es el artefacto de software a verificar.
+
+Para más información visite la [documentación de sigstore](https://docs.sigstore.dev) o la sección de [firma de GoReleaser](https://goreleaser.com/customization/sign).
+
+## License
+
+```
+Copyright 2023 Kevin Hernández
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
