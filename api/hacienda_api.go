@@ -24,6 +24,7 @@ type Client struct {
 
 	// Services used for talking to different parts of the Hacienda API.
 	FacturaElectronica *FEService
+	Indicadores        *INService
 }
 
 func NewClient(httpClient *http.Client) *Client {
@@ -44,6 +45,7 @@ func (c *Client) initialize() {
 	c.common.client = c
 
 	c.FacturaElectronica = (*FEService)(&c.common)
+	c.Indicadores = (*INService)(&c.common)
 }
 
 type service struct {
