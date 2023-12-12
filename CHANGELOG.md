@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/kevinah95/hacienda/compare/v0.8.20...v0.9.0) (2023-12-12)
+
+
+### Features
+
+* Add indicadores subcommand ([9f5de05](https://github.com/kevinah95/hacienda/commit/9f5de0541a8bd480ade75db99394c9283cf46da5))
+
 ## [0.8.20](https://github.com/kevinah95/hacienda/compare/v0.8.19...v0.8.20) (2023-12-08)
 
 
