@@ -40,5 +40,5 @@ hacienda fe ae [flags]
 
 ### SEE ALSO
 
-* [hacienda fe](/cmd/hacienda_fe/)	 - Muestra información relacionada con la Factura Electrónica.
+* [hacienda fe](/hacienda/cmd/hacienda_fe/)	 - Muestra información relacionada con la Factura Electrónica.
 

@@ -20,7 +20,7 @@ hacienda tc [flags]
 
 ### SEE ALSO
 
-* [hacienda](/cmd/hacienda/)	 - Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica.
-* [hacienda tc dolar](/cmd/hacienda_tc_dolar/)	 - Permite obtener el tipo de cambio del dólar de los Estados Unidos de América
-* [hacienda tc euro](/cmd/hacienda_tc_euro/)	 - Permite obtener el tipo de cambio del Euro (dólares y colones)
+* [hacienda](/hacienda/cmd/hacienda/)	 - Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica.
+* [hacienda tc dolar](/hacienda/cmd/hacienda_tc_dolar/)	 - Permite obtener el tipo de cambio del dólar de los Estados Unidos de América
+* [hacienda tc euro](/hacienda/cmd/hacienda_tc_euro/)	 - Permite obtener el tipo de cambio del Euro (dólares y colones)
 

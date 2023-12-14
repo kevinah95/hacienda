@@ -29,5 +29,5 @@ hacienda tc dolar [flags]
 
 ### SEE ALSO
 
-* [hacienda tc](/cmd/hacienda_tc/)	 - Permite obtener el tipo de cambio del dólar y del Euro
+* [hacienda tc](/hacienda/cmd/hacienda_tc/)	 - Permite obtener el tipo de cambio del dólar y del Euro
 

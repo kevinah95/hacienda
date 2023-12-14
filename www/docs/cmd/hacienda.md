@@ -28,7 +28,7 @@ Más información sobre el API del Ministerio de Hacienda en:
 
 ### SEE ALSO
 
-* [hacienda completion](/cmd/hacienda_completion/)	 - Generate the autocompletion script for the specified shell
-* [hacienda fe](/cmd/hacienda_fe/)	 - Muestra información relacionada con la Factura Electrónica.
-* [hacienda tc](/cmd/hacienda_tc/)	 - Permite obtener el tipo de cambio del dólar y del Euro
+* [hacienda completion](/hacienda/cmd/hacienda_completion/)	 - Generate the autocompletion script for the specified shell
+* [hacienda fe](/hacienda/cmd/hacienda_fe/)	 - Muestra información relacionada con la Factura Electrónica.
+* [hacienda tc](/hacienda/cmd/hacienda_tc/)	 - Permite obtener el tipo de cambio del dólar y del Euro
 

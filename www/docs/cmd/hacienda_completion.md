@@ -16,9 +16,9 @@ See each sub-command's help for details on how to use the generated script.
 
 ### SEE ALSO
 
-* [hacienda](/cmd/hacienda/)	 - Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica.
-* [hacienda completion bash](/cmd/hacienda_completion_bash/)	 - Generate the autocompletion script for bash
-* [hacienda completion fish](/cmd/hacienda_completion_fish/)	 - Generate the autocompletion script for fish
-* [hacienda completion powershell](/cmd/hacienda_completion_powershell/)	 - Generate the autocompletion script for powershell
-* [hacienda completion zsh](/cmd/hacienda_completion_zsh/)	 - Generate the autocompletion script for zsh
+* [hacienda](/hacienda/cmd/hacienda/)	 - Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica.
+* [hacienda completion bash](/hacienda/cmd/hacienda_completion_bash/)	 - Generate the autocompletion script for bash
+* [hacienda completion fish](/hacienda/cmd/hacienda_completion_fish/)	 - Generate the autocompletion script for fish
+* [hacienda completion powershell](/hacienda/cmd/hacienda_completion_powershell/)	 - Generate the autocompletion script for powershell
+* [hacienda completion zsh](/hacienda/cmd/hacienda_completion_zsh/)	 - Generate the autocompletion script for zsh
 

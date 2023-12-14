@@ -41,5 +41,5 @@ hacienda completion zsh [flags]
 
 ### SEE ALSO
 
-* [hacienda completion](/cmd/hacienda_completion/)	 - Generate the autocompletion script for the specified shell
+* [hacienda completion](/hacienda/cmd/hacienda_completion/)	 - Generate the autocompletion script for the specified shell
 
