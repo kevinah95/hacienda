@@ -8,6 +8,7 @@ edit_uri: edit/main/www/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   # logo: static/avatar.png
   # favicon: static/favicon.ico
