@@ -1,0 +1,47 @@
+version: '3'
+
+vars:
+  DOCKER: '{{default "docker" .DOCKER}}'
+
+tasks:
+  setup:
+    desc: Install dependencies
+    cmds:
+      - go mod tidy
+
+  build:
+    desc: Build the binary
+    sources:
+      - ./**/*.go
+    generates:
+      - ./hacienda
+    cmds:
+      - go build
+
+  ci:
+    desc: Run all CI steps
+    cmds:
+      - task: setup
+      - task: build
+
+  docs:generate:
+    desc: Generate docs
+    cmds:
+      - go run . docs
+      - cp -rf CONTRIBUTING.md www/docs/contributing.md
+    sources:
+      - CONTRIBUTING.md
+    generates:
+      - www/docs/contributing.md
+
+  docs:serve:
+    desc: Start documentation server
+    cmds:
+      - "{{.DOCKER}} build -t mkdocs -f www/docker/Dockerfile www/docker"
+      - "{{.DOCKER}} run --rm -p 8000:8000 -v ${PWD}/www:/docs mkdocs"
+
+  docs:build:
+    desc: Build docs
+    cmds:
+      - "{{.DOCKER}} build -t mkdocs -f www/docker/Dockerfile www/docker"
+      - "{{.DOCKER}} run --rm -v ${PWD}/www:/docs mkdocs build"

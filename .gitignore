@@ -32,7 +32,8 @@ go.work
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -63,3 +64,7 @@ Temporary Items
 
 
 dist/
+site/
+.task/
+hacienda
+hacienda.exe

@@ -1,0 +1,105 @@
+site_name: Hacienda CLI
+site_url: https://kevinah95.github.io/
+site_description: Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica
+copyright: Copyright &copy; 2023 Kevin Hernández Rostrán 
+repo_name: kevinah95/hacienda
+repo_url: https://github.com/kevinah95/hacienda
+edit_uri: edit/main/www/docs/
+
+theme:
+  name: material
+  language: es
+  # logo: static/avatar.png
+  # favicon: static/favicon.ico
+  include_search_page: false
+  search_index_only: true
+  palette:
+    - media: "(prefers-color-scheme: light)" # Light mode
+      scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)" # Dark mode
+      scheme: slate
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+  features:
+    - announce.dismiss
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+
+# plugins:
+#   - search
+#   - redirects:
+#       redirect_maps:
+#         CODE_OF_CONDUCT.md: code_of_conduct.md
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        github.md: https://github.com/kevinah95/hacienda
+        linkedin.md: https://www.linkedin.com/in/kevinah95
+        twitter.md: https://twitter.com/kevinah95
+  #       d.md: https://discord.gg/RGEBtg8vQ6
+  #       g.md: https://github.com/goreleaser
+  #       l.md: https://www.linkedin.com/company/goreleaser/
+  #       m.md: https://fosstodon.org/@goreleaser
+  #       t.md: https://twitter.com/goreleaser
+  #       "customization/build.md": customization/builds.md
+  - minify:
+      minify_html: true
+  - include-markdown
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/kevinah95/hacienda
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/kevinah95
+
+nav:
+  - Home: index.md
+  - Empezar:
+    - intro/intro.md
+    - intro/install.md
+    - contributing.md
+    - Uso de hacienda CLI:
+      - cmd/hacienda.md
+      - cmd/hacienda_fe.md
+      - cmd/hacienda_fe_ae.md
+      - cmd/hacienda_fe_agropecuario.md
+      - cmd/hacienda_fe_cabys.md
+      - cmd/hacienda_fe_ex.md
+      - cmd/hacienda_fe_pesca.md
+      - cmd/hacienda_tc.md
+      - cmd/hacienda_tc_dolar.md
+      - cmd/hacienda_tc_euro.md
+      - cmd/hacienda_completion_bash.md
+      - cmd/hacienda_completion_fish.md
+      - cmd/hacienda_completion_powershell.md
+      - cmd/hacienda_completion_zsh.md
+      - cmd/hacienda_completion.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
