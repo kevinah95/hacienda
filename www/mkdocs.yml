@@ -8,7 +8,7 @@ edit_uri: edit/main/www/docs/
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: docs/overrides
   language: es
   # logo: static/avatar.png
   # favicon: static/favicon.ico
@@ -68,6 +68,8 @@ extra:
       link: https://github.com/kevinah95/hacienda
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/kevinah95
+  analytics:
+    provider: custom
 
 nav:
   - Home: index.md
