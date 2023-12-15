@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/kevinah95/hacienda/compare/v0.9.0...v0.10.0) (2023-12-15)
+
+
+### Features
+
+* add homebrew install config ([2ebc655](https://github.com/kevinah95/hacienda/commit/2ebc6556983afd3af1cd3299ed54c02f16b754dc))
+
 ## [0.9.0](https://github.com/kevinah95/hacienda/compare/v0.8.20...v0.9.0) (2023-12-12)
 
 
