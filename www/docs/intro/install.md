@@ -56,7 +56,7 @@ Para más información visite la [documentación de sigstore](https://docs.sigst
 Aquí tienes dos opciones:
 
 Si quieres contribuir al proyecto, sigue los
-pasos en nuestra [guía de contribución](/contributing).
+pasos en nuestra [guía de contribución](/hacienda/contributing).
 
 Si, por cualquier motivo, quieres compilar desde el código fuente, sigue estos pasos:
 
