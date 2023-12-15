@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/kevinah95/hacienda/compare/v0.10.1...v1.0.0) (2023-12-15)
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([2869bbe](https://github.com/kevinah95/hacienda/commit/2869bbe151191aca75ec68e867e801b7b3749d43))
+
 ## [0.10.1](https://github.com/kevinah95/hacienda/compare/v0.10.0...v0.10.1) (2023-12-15)
 
 
