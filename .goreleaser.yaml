@@ -47,7 +47,7 @@ archives:
 brews:
   - repository:
       owner: kevinah95
-      name: homebrew-tap-hacienda
+      name: homebrew-tap
     folder: Formula
     goarm: "7"
     homepage: https://kevinah95.github.io/hacienda

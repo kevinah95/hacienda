@@ -19,16 +19,16 @@ Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de 
 $ curl -sf http://goblin.run/github.com/kevinah95/hacienda | sh
 ```
 
-### Go
+### Homebrew tap
+
+```
+$ brew install kevinah95/tap/hacienda
+```
+
+### Go install
 
 ```
 $ go install github.com/kevinah95/hacienda@latest
-```
-
-### Homebrew
-
-```
-$ TODO
 ```
 
 ### Manual

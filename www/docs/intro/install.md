@@ -13,6 +13,12 @@ A continuación puedes encontrar los pasos para cada una de ellas.
 $ curl -sf http://goblin.run/github.com/kevinah95/hacienda | sh
 ```
 
+### Homebrew tap
+
+```
+$ brew install kevinah95/tap/hacienda
+```
+
 ### Go install
 
 ```bash
