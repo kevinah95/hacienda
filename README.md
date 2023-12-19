@@ -5,7 +5,7 @@
 [![GitHub release (with filter)](https://img.shields.io/github/v/release/kevinah95/hacienda)](https://github.com/kevinah95/hacienda/releases)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kevinah95/hacienda)](https://goreportcard.com/report/github.com/kevinah95/hacienda)
 [![Go Reference](https://pkg.go.dev/badge/github.com/kevinah95/hacienda.svg)](https://pkg.go.dev/github.com/kevinah95/hacienda)
-
+[![Medium](https://skydoves.github.io/badges/Story-Medium.svg)](https://medium.com/@kevinah95/hecho-en-costa-rica-hacienda-cli-d922490d6aca)
 
 Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de Costa Rica.
 
