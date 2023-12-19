@@ -71,6 +71,9 @@ extra:
   analytics:
     provider: custom
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - Empezar:
