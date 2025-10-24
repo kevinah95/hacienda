@@ -16,19 +16,19 @@ Hacienda es una aplicación que se conecta al API del Ministerio de Hacienda de 
 ### Vía [goblin.run](https://goblin.run)
 
 ```sh
-$ curl -sf http://goblin.run/github.com/kevinah95/hacienda | sh
+λ curl -sf http://goblin.run/github.com/kevinah95/hacienda | sh
 ```
 
 ### Homebrew tap
 
 ```
-$ brew install kevinah95/tap/hacienda
+λ brew install kevinah95/tap/hacienda
 ```
 
 ### Go install
 
 ```
-$ go install github.com/kevinah95/hacienda@latest
+λ go install github.com/kevinah95/hacienda@latest
 ```
 
 ### Manual
@@ -44,7 +44,7 @@ Este proyecto utiliza Cosign para firmar los archivos binarios.
 Para verificar la firma con `cosign`, vea este ejemplo:
 
 ```bash
-$ cosign verify-blob --key cosign.pub --signature signatures/hacienda.sig  ./hacienda
+λ cosign verify-blob --key cosign.pub --signature signatures/hacienda.sig  ./hacienda
 ```
 
 - `cosign.pub`: Se encuentra en el directorio raíz del proyecto.
